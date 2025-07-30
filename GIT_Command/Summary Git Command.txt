@@ -17,15 +17,23 @@ error: failed to push some refs to 'https://github.com/Hariyanto9/test.git'
 
 
 --==COMMAND
-#branch
+
+##Branch
 git branch -r -d test30 : delete branch remote
 git push -u origin --delete test30
 
+rename branch origin
+$ git branch new-branch-name origin/old-branch-name
+$ git push origin --set-upstream new-branch-name
+$ git push origin old-branch-name
+Then, to see the old branch name, each client of the repository would have to do:
 
+$ git fetch origin
+$ git remote prune origin
+
+
+
+
+##Merge
 git merge --squash 
 git merge --squash master --allow-unrelated-histories
-
---allow-unrelated-histories
-
-
-"C:\Users\istagihari010906\AppData\Local\Programs\Microsoft VS Code\bin\code"
