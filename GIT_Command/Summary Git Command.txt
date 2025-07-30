@@ -1,0 +1,31 @@
+github
+Hariyanto9
+hariyantosk1r0cks.!
+
+
+
+https://github.com/Hariyanto9/test.git
+
+
+--==
+- ga bisa nampilin brach di git
+- ga bisa push code ke git
+
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Hariyanto9/test.git'
+
+
+
+--==COMMAND
+#branch
+git branch -r -d test30 : delete branch remote
+git push -u origin --delete test30
+
+
+git merge --squash 
+git merge --squash master --allow-unrelated-histories
+
+--allow-unrelated-histories
+
+
+"C:\Users\istagihari010906\AppData\Local\Programs\Microsoft VS Code\bin\code"
