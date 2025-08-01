@@ -17,6 +17,13 @@ error: failed to push some refs to 'https://github.com/Hariyanto9/test.git'
 
 
 --==COMMAND
+<<<<<<< HEAD
+=======
+##Config
+
+--system, --global, --local, --worktreedan --file
+
+>>>>>>> document
 
 ##Branch
 git branch -r -d test30 : delete branch remote
@@ -37,3 +44,12 @@ $ git remote prune origin
 ##Merge
 git merge --squash 
 git merge --squash master --allow-unrelated-histories
+<<<<<<< HEAD
+=======
+
+
+
+##LOG
+git log --graph : menampilkan grafik
+git log --online : menampilkan history dan posisi commitan
+>>>>>>> document
